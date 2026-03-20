@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantera Institute | Official SAFe Certification & AI-Enabled Agile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; color: #111; }
+    header, section, footer { padding: 60px 20px; }
+    header { background: #1a1a1a; color: #fff; text-align: center; }
+    header h1 { font-size: 2.5em; margin-bottom: 20px; }
+    header p { font-size: 1.2em; margin-bottom: 30px; }
+    .cta-button { background: #ffb400; color: #111; padding: 15px 30px; font-weight: 600; border: none; cursor: pointer; text-decoration: none; }
+    section { max-width: 1100px; margin: auto; }
+    h2 { font-size: 2em; margin-bottom: 20px; }
+    .cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card { background: #f8f8f8; padding: 30px; border-radius: 12px; flex: 1 1 300px; max-width: 350px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
+    input, select, textarea { padding: 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 1em; }
+    footer { background: #111; color: #fff; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / HERO -->
+  <header>
+    <h1>Official SAFe® Certification with AI-Enabled Agile Mastery</h1>
+    <p>Learn scaled Agile principles used by Fortune 50 companies and integrate AI-powered frameworks to accelerate product delivery and career growth.</p>
+    <a href="#waitlist" class="cta-button">Reserve Your Certified Spot</a>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>Why Pantera Institute</h2>
+    <p>Pantera Institute is an <strong>official SAFe® training partner</strong>, providing certification courses that prepare professionals to excel in scaled Agile environments. Our programs integrate AI-enabled product management frameworks, giving participants practical skills to:</p>
+    <ul>
+      <li>Apply SAFe at scale in real-world organizations</li>
+      <li>Accelerate product delivery with AI-assisted workflows</li>
+      <li>Build templates, tools, and frameworks used by Fortune 50 companies</li>
+    </ul>
+    <p><strong>Our Vision:</strong> Equip ambitious professionals with the mindset, frameworks, and credentials needed to thrive in today’s fast-moving, AI-driven product landscape.</p>
+    <a href="#programs" class="cta-button">Explore Programs & Get Certified</a>
+  </section>
+
+  <!-- PROGRAMS SECTION -->
+  <section id="programs">
+    <h2>Official SAFe Certification Programs</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>SAFe Micro-Training Sessions + Certificate</h3>
+        <p>60–90 min live sessions. Focused SAFe modules with practical AI integration. Includes official SAFe module certificate. Apply concepts immediately in your team.</p>
+        <a href="#waitlist" class="cta-button">Join Waitlist</a>
+      </div>
+      <div class="card">
+        <h3>Full AI & SAFe Mastery Program + Certification</h3>
+        <p>4–6 week hybrid program. SAFe-aligned curriculum + AI-enabled product management. Capstone project. Official SAFe certification + Pantera Institute Certificate of Mastery.</p>
+        <a href="#waitlist" class="cta-button">Join Waitlist</a>
+      </div>
+      <div class="card">
+        <h3>Private Coaching / Mentorship + Certification</h3>
+        <p>Personalized SAFe guidance and AI-enabled frameworks. Includes official certificate of completion. One-on-one or small cohort format.</p>
+        <a href="#waitlist" class="cta-button">Request Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST / FORM SECTION -->
+  <section id="waitlist">
+    <h2>Reserve Your Spot for Official SAFe Certification</h2>
+    <p>Fill out the form below to join the waitlist. Be among the first to earn your official SAFe certification while mastering AI-enabled product management.</p>
+    <form>
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="role" placeholder="Role / Profession" required>
+      <select name="course" required>
+        <option value="">Select Course of Interest</option>
+        <option value="micro-training">SAFe Micro-Training</option>
+        <option value="full-mastery">Full AI & SAFe Mastery Program</option>
+        <option value="coaching">Private Coaching / Mentorship</option>
+        <option value="workshop">Corporate / University Workshop</option>
+      </select>
+      <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+      <input type="text" name="company" placeholder="Company / Institution (Optional)">
+      <button type="submit" class="cta-button">Reserve Your Certified Spot</button>
+    </form>
+  </section>
+
+  <!-- CONTACT / CORPORATE INQUIRY -->
+  <section id="contact">
+    <h2>Custom SAFe + AI Programs for Teams & Institutions</h2>
+    <p>For organizations or universities interested in customized official SAFe certification workshops, please fill out the form below. Our team will reach out to design a tailored program.</p>
+    <form>
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="organization" placeholder="Organization / Company" required>
+      <select name="inquiry" required>
+        <option value="">Inquiry Type</option>
+        <option value="workshop">Workshop</option>
+        <option value="training">Training</option>
+        <option value="consulting">Consulting</option>
+      </select>
+      <textarea name="message" rows="5" placeholder="Message"></textarea>
+      <button type="submit" class="cta-button">Submit Inquiry</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Pantera Institute. Official SAFe® Training Partner. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
